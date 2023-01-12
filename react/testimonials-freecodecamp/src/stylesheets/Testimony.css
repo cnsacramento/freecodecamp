@@ -1,0 +1,27 @@
+.testimony-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0a0a23;
+    margin: 3.5rem auto;
+    width: 60%;
+}
+
+.testimony-box .testimony-container {
+    font-family: Lato, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.testimony-box .testimony-container .testimony-job {
+    margin: 0.5rem 0rem 1.5rem 0rem;
+}
+
+.testimony-box .testimony-container .testimony-text {
+    text-align: justify;
+}

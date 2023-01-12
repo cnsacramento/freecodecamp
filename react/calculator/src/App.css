@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #1a1b31;
+  --calculator-background: #9acbfe;
+  --calculator-border: #f9ffff;
+}
+
+html,
+body {
+  background: var(--primary-color)
+}
+
+.App {
+  height: 100vh;
+  padding: 1rem 2rem 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .freecodecamp-logo {
+  max-width: 15rem;
+}
+
+.App .calculator {
+  margin-top: 1rem;
+  border: 0.2rem solid var(--calculator-border);
+  border-radius: 0.6rem;
+  background: var(--calculator-background);
+  display: flex;
+  flex-direction: column;  
+  padding: 1rem;
+}
+
+.App .calculator .keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 4.6rem);
+  grid-auto-rows: 4rem;
+  column-gap: 0.2rem;
+  row-gap: 0.5rem;
+  margin: 1rem 0rem;
+}
+
+.App .calculator .clear-buttons {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 0.2rem;
+}

@@ -1,0 +1,26 @@
+
+.button-digit {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: #1a1b31;
+    border: 0.1rem solid #fff;
+    border-radius: 1.5rem;
+}
+
+.button-digit:hover {
+    background: #6511aa;
+}
+
+.button-operation {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: #01461a;
+    border: 0.1rem solid #fff;
+    border-radius: 1rem;
+}
+
+.button-operation:hover{
+    background: #ff6504;
+}

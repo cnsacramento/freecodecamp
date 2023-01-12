@@ -1,0 +1,11 @@
+{
+  "name": "my-package",
+  "version": "2.0.0",
+  "description": "My first package with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Novo Sacramento",
+  "license": "ISC"
+}

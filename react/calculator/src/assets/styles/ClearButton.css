@@ -1,0 +1,13 @@
+.clearButton {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: #a30042;
+    border: 0.1rem solid white;
+    border-radius: 1.5rem;
+    height: 3.7rem;
+}
+
+.clearButton:hover {
+    background: #ce9800;
+}

@@ -1,0 +1,11 @@
+.counter {
+    color: #ffffff;
+    font-size: 10rem;
+    border: 0.5rem solid #ffffff;
+    min-width: 18rem;
+    min-height: 18rem;
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
